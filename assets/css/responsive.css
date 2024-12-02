@@ -56,12 +56,35 @@
         font-size: 24px; 
         line-height: 27px; 
     }
+    .extra_header {
+        background: transparent;
+    }
+    
+    .mobile_icon{
+        display: block;
+    }
+    .mobile_icon i {
+        font-size: 38px;
+    }
+    .banner h2 {
+        font-size: 15px;
+        line-height: 22px;
+        width: 274px;
+        margin: 0 0 0 auto;
+        text-align: justify;
+    }
+    .banner_text { 
+        bottom: 90px; 
+    }
 }
 
 @media all and (max-width: 575px){
 	p { 
         font-size: 15px;
         line-height: 26px;
+    }
+    .travel_box p {
+        text-align: justify;
     }
     .btn_1 { 
         font-size: 16px; 

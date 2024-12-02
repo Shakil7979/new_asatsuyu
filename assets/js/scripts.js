@@ -79,12 +79,14 @@ $(document).ready(function(){
 				$('.header_area').removeClass('extra_header');
 				$('.logo').css({'opacity':'0','visibility':'hidden'});
 				$('.hide_menu').css({'opacity':'0','visibility':'hidden'});
+				$('.mobile_icon').css({'opacity':'0','visibility':'hidden'});
 			} else {
 				$('.header_area').removeClass('header_fixed');
 				// $(".bars_icon").removeClass("fixed_bars");
 				$('.header_area').addClass('extra_header');
 				$('.logo').css({'opacity':'1','visibility':'visible'});
 				$('.hide_menu').css({'opacity':'1','visibility':'visible'});
+				$('.mobile_icon').css({'opacity':'1','visibility':'visible'});
 			}
 		});
 	});
