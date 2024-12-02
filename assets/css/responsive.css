@@ -20,12 +20,32 @@
         font-size: 16px;
         line-height: 21px; 
     }
+    .about_founder_text_box { 
+        flex-direction: column;
+    }
+    .sk_about_banner {
+        width: 100%; 
+    }
+    .aboutContainer {
+        max-width: 100%; 
+    }
+    .about_founder_text_box_img { 
+        justify-content: center;
+    }
+    .about_inquiry_text { 
+        flex-direction: column;
+    }
 }
 
 @media all and (max-width: 767px){
 	.banner h2 {
         font-size: 30px; 
         line-height: 42px; 
+    }
+    .sk_about_img { 
+        max-width: inherit; 
+        height: auto; 
+        margin-top: 25px;
     }
     .hum_menu__box ul li a {
         font-size: 30px; 
@@ -82,6 +102,13 @@
 	p { 
         font-size: 15px;
         line-height: 26px;
+    }
+    .about_founder_text_box_text p {
+        padding-top: 25px;
+        text-align: justify;
+    }
+    .about_text p { 
+        text-align: justify;
     }
     .travel_box p {
         text-align: justify;

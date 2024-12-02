@@ -98,3 +98,31 @@ $(document).ready(function(){
 
 
 });
+
+
+
+// left right 
+
+// $(document).ready(function () {
+//     const container = $(".about_whyus_text_box");
+//     const section = $(".about_whyus");
+
+//     $(window).on("scroll", function () {
+//         const scrollTop = $(window).scrollTop();
+//         const sectionTop = section.offset().top;
+//         const sectionHeight = section.outerHeight();
+//         const windowHeight = $(window).height();
+
+//         // Check if the section is in view
+//         if (scrollTop + windowHeight > sectionTop && scrollTop < sectionTop + sectionHeight) {
+//             // Calculate scroll percentage relative to the section
+//             const scrollPercentage =
+//                 (scrollTop + windowHeight - sectionTop) / (sectionHeight + windowHeight);
+
+//             // Move items horizontally based on scroll
+//             const translateValue = -scrollPercentage * container.width(); // Negative for left movement
+//             container.css("transform", `translateX(${translateValue}px)`);
+//         }
+//     });
+// });
+
