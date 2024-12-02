@@ -1,17 +1,106 @@
+@media all and (max-width: 1400px){
+    .accom_img img {
+        width: 100%;
+        height: 425px;
+    }
+}
+
 @media all and (max-width: 1199px){
 
 }
 
 @media all and (max-width: 991px){
-	
+	.hide_menu {
+        display: none;
+    }
+    .logo a img {
+        width: 130px;
+    }
+    .accom_text p { 
+        font-size: 16px;
+        line-height: 21px; 
+    }
 }
 
 @media all and (max-width: 767px){
-	
+	.banner h2 {
+        font-size: 30px; 
+        line-height: 42px; 
+    }
+    .hum_menu__box ul li a {
+        font-size: 30px; 
+    }
+    .hum_mneu_logo a img {
+        width: 155px;
+        margin-bottom: 25px;
+    }
+    .travel_box p { 
+        text-align: center;
+    }
+    .footer_logo img {
+        width: 160px;
+    }
+    .accomdations {
+        position: inherit; 
+        margin-bottom: 30px;
+    }
+    .accom_img img {
+        width: 95%;
+        height: auto;
+        margin: 0 auto;
+    }
+    .accom_img {
+        text-align: center;
+    }
+    h3 {
+        font-size: 24px; 
+        line-height: 27px; 
+    }
 }
 
 @media all and (max-width: 575px){
-	
+	p { 
+        font-size: 15px;
+        line-height: 26px;
+    }
+    .btn_1 { 
+        font-size: 16px; 
+    }
+    .section_title h2 {
+        font-size: 30px; 
+        line-height: 39px; 
+    }
+    .footer_social ul { 
+        flex-wrap: wrap;
+    }
+    .footer_social ul li:first-child {
+        flex: 0 0 100%;
+        width: 100%;
+        text-align: center;
+    }
+    .footer_subs_input input { 
+        font-size: 13px;
+    }
+    .section_padding {
+        padding: 50px 0;
+    }
+    .margin_top_banner {
+        padding-top: 200px !important;
+    }
+    .accom_text {
+        width: 100%;
+    }
+    .item_of_accomdation {
+        margin-bottom: 60px;
+    }
+    .travel_box.ready_text h3 {
+        text-align: center;
+        font-size: 22px;
+        margin-top: 30px;
+    }
+    .travel_box.helped.ready_text {
+        text-align: center;
+    }
 }
 
 @media all and (max-width: 450px){

@@ -298,7 +298,8 @@ p {
 }
 
 .section_title p {
-	width: 43%;
+	width: 100%;
+	max-width: 550px;
 	margin: 0 auto;
 }
 
@@ -540,8 +541,8 @@ h4{
 
 }
 
-.item_of_accomdation{
-	margin-bottom: 80px;
+.item_of_accomdation {
+	margin-bottom: 100px;
 }
 
 .travel_box.helped.ready_text {
@@ -774,7 +775,25 @@ h4{
 	color: #fff; /* Ensure color changes */
 	z-index: 2; /* Keep the text above the pseudo-element */
   }
+
+
+  .bars_area_box .container { 
+	display: flex;
+	align-items: center;
+}
+
+.accomdations > .container {
+	display: flex;
+	align-items: center;
+}
   
+.accom_text {
+	width: 90%;
+}
+
+.accom_text p {
+	text-align: justify;
+}
 
 
 /*======================  End Page  ======================*/
