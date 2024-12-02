@@ -42,6 +42,10 @@
         font-size: 30px; 
         line-height: 42px; 
     }
+    .banner_carousel_item {
+        height: 600px;
+        position: relative;
+    }
     .sk_about_img { 
         max-width: inherit; 
         height: auto; 

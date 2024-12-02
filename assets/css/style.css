@@ -194,8 +194,13 @@ h2 {
 }
   
 
-.banner_carousel_item{
+/* .banner_carousel_item{
 	height: 700px;
+	position: relative;
+} */
+
+.banner_carousel_item {
+	height: 800px;
 	position: relative;
 }
 
