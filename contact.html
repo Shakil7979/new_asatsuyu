@@ -21,6 +21,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/css/select2.min.css">
     <!-- Normalize -->
     <link rel="stylesheet" href="assets/css/normalize.css" />
     <!-- CSS Files -->
@@ -129,10 +130,52 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="form_group">
-                                <label for="contact_number">Contact Number</label>
-                                <input type="text" name="" id="contact_number">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form_group">
+                                        <label for="contact_number">Contact Number</label>
+                                        <select name="contact_number" class="js-select2" id="contact_number"> 
+                                            <option value="+61">Australia (+61)</option>
+                                            <option value="+43">Austria (+43)</option>
+                                            <option value="+32">Belgium (+32)</option>
+                                            <option value="+1">Canada (+1)</option>
+                                            <option value="+86">China (+86)</option>
+                                            <option value="+45">Denmark (+45)</option>
+                                            <option value="+358">Finland (+358)</option>
+                                            <option value="+33">France (+33)</option>
+                                            <option value="+49">Germany (+49)</option>
+                                            <option value="+852">Hong Kong (+852)</option>
+                                            <option value="+91">India (+91)</option>
+                                            <option value="+353">Ireland (+353)</option>
+                                            <option value="+39">Italy (+39)</option>
+                                            <option value="+81">Japan (+81)</option>
+                                            <option value="+965">Kuwait (+965)</option>
+                                            <option value="+352">Luxembourg (+352)</option>
+                                            <option value="+60">Malaysia (+60)</option>
+                                            <option value="+31">Netherlands (+31)</option>
+                                            <option value="+64">New Zealand (+64)</option>
+                                            <option value="+47">Norway (+47)</option>
+                                            <option value="+48">Poland (+48)</option>
+                                            <option value="+351">Portugal (+351)</option>
+                                            <option value="+65">Singapore (+65)</option>
+                                            <option value="+34">Spain (+34)</option>
+                                            <option value="+46">Sweden (+46)</option>
+                                            <option value="+41">Switzerland (+41)</option>
+                                            <option value="+66">Thailand (+66)</option>
+                                            <option value="+971">United Arab Emirates (+971)</option>
+                                            <option value="+44">United Kingdom (+44)</option>
+                                            <option value="+1">United States (+1)</option>
+                                        </select>
+                                    </div>
+                                    
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form_group"> 
+                                        <input type="text" name="" id="number_phone">
+                                    </div>
+                                </div>
                             </div>
+                           
                             <div class="form_group">
                                 <label for="email">Email</label>
                                 <input type="email" name="" id="email">
@@ -290,6 +333,7 @@
     <!-- Bootstrap -->
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/owl.carousel.min.js"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/js/select2.min.js"></script>
     <!-- Modernizr -->
     <script src="assets/js/modernizr-3.11.2.min.js"></script>
     <!-- Custom JS (Handed)--> 
