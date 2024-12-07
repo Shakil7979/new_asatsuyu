@@ -662,8 +662,7 @@ h4{
   
   .about_whyus_text_box {
 	display: flex;
-	min-width: fit-content;
-	flex-wrap: wrap;
+	min-width: fit-content; 
 	gap: 50px; 
   }
   
@@ -1289,8 +1288,16 @@ h4{
 	width: 100%;
 }
 
+.sk_flex {
+	display: flex;
+	gap: 68px;
+}
 
+.swiper-container{
+	height: 100vh;
+}
 
+/* test  */ 
 /*======================  End Page  ======================*/
 /* 
 
