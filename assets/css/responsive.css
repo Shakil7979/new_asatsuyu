@@ -195,10 +195,7 @@
     }    
     .contact_box > .row {
         flex-direction: column-reverse;
-    }
-    .contact_area {
-        margin-top: 110px;
-    }
+    } 
     .art_travel { 
         right: inherit; 
         left: 31px;
@@ -224,10 +221,7 @@
     .aboutInquiryRightText h3 {
         font-size: 18px; 
         line-height: 27px;
-    }
-    .services_area { 
-        margin-top: 109px; 
-    }
+    } 
 }
 
 @media all and (max-width: 575px){
