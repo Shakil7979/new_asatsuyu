@@ -25,6 +25,12 @@
     .aboutInquiryRightText p { 
         padding-top: 0; 
     }
+    .menu ul li a {
+        font-size: 16px; 
+    }
+    .hum_menu__box ul li a {
+        font-size: 40px; 
+    }
 }
 
 @media all and (max-width: 991px){
