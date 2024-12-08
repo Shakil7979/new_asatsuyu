@@ -2,11 +2,20 @@
     .accom_img img {
         width: 100%;
         height: 425px;
+    } 
+    .experi_single_text p {
+        font-size: 16px;
     }
-}
+} 
 
 @media all and (max-width: 1199px){
-
+    .art_loop_img img {
+        width: 100%;
+        transform: translateY(0);
+    }
+    .aboutInquiryRightText p { 
+        padding-top: 0; 
+    }
 }
 
 @media all and (max-width: 991px){
@@ -35,12 +44,56 @@
     .about_inquiry_text { 
         flex-direction: column;
     }
+    
+    .art_banner_text h3 { 
+        line-height: 56px;
+    }
 }
 
 @media all and (max-width: 767px){
 	.banner h2 {
         font-size: 30px; 
         line-height: 42px; 
+    }
+    .contact_form_header {
+        margin-bottom: 15px;
+    }
+    .contact_left_content {
+        margin-top: 60px;
+    }
+    .select2-container { 
+        width: 100% !important;
+    }
+    .art_look {
+        padding: 80px 0;
+    }
+    .aboutInquiryRightText p { 
+        padding-top: 25px; 
+    }
+    .about_whyus_text_box { 
+        flex-direction: column;
+    }
+    /* .art_img_up img { 
+        transform: translateY(0);
+    }
+    .gal_art_text{
+        margin-bottom: 25px;
+    }
+    .art_img_up_2 img { 
+        transform: translateY(0);
+    } */
+
+    .art_img_text { 
+        margin: 40px auto;
+    }
+    .aboutWhyUsSingle {
+        flex: 0 0 100%; 
+    }
+    .swiper-container {
+        height: auto;
+    }
+    .single_child{
+        height: auto !important;
     }
     .banner_carousel_item {
         height: 600px;
@@ -99,6 +152,41 @@
     }
     .banner_text { 
         bottom: 90px; 
+    }    
+    .contact_box > .row {
+        flex-direction: column-reverse;
+    }
+    .contact_area {
+        margin-top: 110px;
+    }
+    .art_travel { 
+        right: inherit; 
+        left: 31px;
+    }
+    .art_banner_text h3 {
+        font-size: 42px;
+        line-height: 56px;
+    }
+    .art_img_text h3{
+        font-size: 28px;
+        line-height: 28px;
+    }
+    .art_img_text { 
+        width: 100%;
+    }
+    .gal_art_text {
+        margin-bottom: 25px;
+    }
+    .aboutInquiryRightText p {
+        font-size: 14px; 
+        line-height: 22px; 
+    }
+    .aboutInquiryRightText h3 {
+        font-size: 18px; 
+        line-height: 27px;
+    }
+    .services_area { 
+        margin-top: 109px; 
     }
 }
 
@@ -107,6 +195,7 @@
         font-size: 15px;
         line-height: 26px;
     }
+ 
     .about_founder_text_box_text p {
         padding-top: 25px;
         text-align: justify;
