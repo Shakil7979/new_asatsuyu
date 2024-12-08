@@ -8,6 +8,7 @@ body{
 	font-weight: 400;
 	font-family: "Montserrat", sans-serif;
 	background: #030303;
+	position: relative;
 }
 h1,h2,h3,h4,h5,h6,p{
 	margin: 0;
@@ -53,7 +54,7 @@ h2 {
 	width: 100%;
 	top: 0;
 	left: 0;
-	z-index: 999999;
+	z-index: 999999; 
 }
 
 .header_fixed {
@@ -513,7 +514,8 @@ h4{
 
 .accom_img {
 	width: 100%;
-
+	display: flex;
+	align-items: center;
 }
 
 .accom_img img{
@@ -523,6 +525,12 @@ h4{
 .item_of_accomdation{
 	width: 100%;
 	overflow: hidden;
+}
+
+.experince_img_area {
+	height: 100%;
+	display: flex;
+	align-items: center;
 }
 
 .accom_text h3 {
@@ -597,11 +605,11 @@ h4{
 	background-color: rgba(3, 3, 3, 0.605); /* Semi-transparent black overlay */
 	z-index: 2;
   }
-  .container {
+  /* .container {
 	position: relative;
 	width: 100%;
 	height: 100%;
-  }
+  } */
   .about_banner_text {
 	right: 0;
 	position: absolute;
@@ -844,8 +852,8 @@ h4{
 	margin: 0 auto;
 }
 
-.contact_area {
-	margin-top: 160px;
+.contact_box {
+	padding-top: 160px;
 }
 
 .contact_header h3 {
@@ -1050,8 +1058,11 @@ h4{
 	background: url(../images/services/banner.webp) no-repeat scroll center center / cover;
 	height: 600px;
 	width: 100%; 
-	margin-top: 150px;
 	position: relative;
+}
+
+.art_banner_text{ 
+	padding-top: 150px;
 }
 
 .art_banner_area {
@@ -1079,7 +1090,7 @@ h4{
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	height: 100%;
+	height: 100vh;
 	width: 100%;
 	max-width: 800px;
 	margin: 0 auto;
@@ -1091,7 +1102,7 @@ h4{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 100%;
+	height: 100vh;
 }
 
 .service_content h3 {
@@ -1307,11 +1318,18 @@ h4{
 } 
 
 
-/* test  */ 
+/* test  */
 
-
-
-
+.contact_area {
+	background: #121212;
+}
+.travel_area{
+	background: #030303;
+}
+ 
+.header_area{
+	opacity: 1 !important;
+}
 
 
 

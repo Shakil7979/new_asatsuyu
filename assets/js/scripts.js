@@ -1,3 +1,7 @@
+
+
+AOS.init();
+
 $(document).ready(function () {
     $(".ex_banner_carousel").owlCarousel({
         items: 1,                // Show one item at a time
@@ -169,3 +173,4 @@ $(document).ready(function() {
         }
     }
 });
+
