@@ -30,20 +30,46 @@ $(document).ready(function () {
 
 $(document).ready(function(){
 	// Mobile Menu
+	// $(document).ready(function () {
+	// 	$('.bars_icon').click(function (e) {
+	// 		e.preventDefault();  
+	 
+	// 		$('.bars_menu').slideToggle(1000);  
+	 
+	// 		const icon = $(this).find('i');
+	// 		if (icon.hasClass('fa-bars')) {
+	// 			icon.removeClass('fa-bars').addClass('fa-times');  
+	// 		} else {
+	// 			icon.removeClass('fa-times').addClass('fa-bars');
+	// 		}
+	// 	});
+	// });
+
 	$(document).ready(function () {
 		$('.bars_icon').click(function (e) {
-			e.preventDefault();  
-	 
-			$('.bars_menu').slideToggle(1000);  
-	 
+			e.preventDefault();
+	
+			$('.bars_menu, .bars_overlay').toggleClass('open'); // Show or hide menu and overlay
+	
 			const icon = $(this).find('i');
 			if (icon.hasClass('fa-bars')) {
-				icon.removeClass('fa-bars').addClass('fa-times');  
+				icon.removeClass('fa-bars').addClass('fa-times');
+				$('body').addClass('no-scroll'); // Disable scrolling
 			} else {
 				icon.removeClass('fa-times').addClass('fa-bars');
+				$('body').removeClass('no-scroll'); // Enable scrolling
 			}
 		});
+	
+		// Hide overlay and menu when the overlay is clicked
+		$('.bars_overlay').click(function () {
+			$('.bars_menu, .bars_overlay').removeClass('open');
+			$('.bars_icon i').removeClass('fa-times').addClass('fa-bars');
+			$('body').removeClass('no-scroll'); // Enable scrolling
+		});
 	});
+	
+	
 	
 
 	// Banner Carousel

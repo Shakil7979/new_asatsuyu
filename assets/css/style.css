@@ -74,11 +74,18 @@ h2 {
 } 
 
 .hum_menu__box ul li a {
-	font-size: 48px;
+	font-size: 28px;
 	font-weight: 400;
 	color: #e7e7e7;
-	transition: 0.3s; 
+	transition: 0.3s;
 	font-family: "Playfair Display", serif;
+	margin-bottom: 9px;
+	display: inline-block;
+}
+
+.hum_mneu_logo img {
+	width: 150px;
+	margin-top: 45px;
 }
 
 .hum_menu__box ul li a:hover {
@@ -122,12 +129,38 @@ h2 {
 .bars_menu {
 	position: fixed;
 	top: 0;
-	left: 0;
-	background: #030303;
-	z-index: 999;
+	left: -100%;
+	background: #030303d6;
+	z-index: 9999;
 	width: 100%;
 	height: 100vh;
+	/* display: none; */
+	max-width: 600px;
+	transition: 0.7s;
+}
+
+.bars_overlay{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
 	display: none;
+	z-index: 999;
+	background: rgba(0, 0, 0, 0.6); 
+}
+
+.bars_overlay.open{
+	display: block;
+}
+
+/* .no-scroll {
+    overflow: hidden;  
+    height: 100%;   
+} */
+
+.bars_menu.open {
+    left: 0; /* Visible on-screen */
 }
 
 .bars_area_box {
@@ -156,7 +189,7 @@ h2 {
 }
 
 .banner_carousel_item {
-	height: 400px; 
+	height: 100vh; 
 	background-size: cover;
 	background-position: center;
 	transition: transform 1.5s ease, opacity 1.5s ease;
@@ -196,7 +229,7 @@ h2 {
 } 
 
 .banner_carousel_item {
-	height: 800px;
+	/* height: 800px; */
 	position: relative;
 }
 
@@ -211,18 +244,18 @@ h2 {
 }
 
 .banner h2 {
-	font-size: 41px;
+	font-size: 22px;
 	font-weight: 600;
 	text-transform: capitalize;
 	color: #fff;
-	line-height: 58px;
+	line-height: 36px;
 	font-family: "Playfair Display", serif;
 	font-style: italic;
 }
 
 .banner {
 	width: 100%;
-	max-width: 666px;
+	max-width: 400px;
 	margin: 0 0 0 auto;
 }
 
