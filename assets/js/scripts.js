@@ -48,8 +48,9 @@ $(document).ready(function(){
 	$(document).ready(function () {
 		$('.bars_icon').click(function (e) {
 			e.preventDefault();
-	
-			$('.bars_menu, .bars_overlay').toggleClass('open'); // Show or hide menu and overlay
+
+			$('.hide_menu').slideToggle(500);
+			$('.bars_menu, .bars_overlay').toggleClass('open');     // Show or hide menu and overlay
 	
 			const icon = $(this).find('i');
 			if (icon.hasClass('fa-bars')) {
@@ -62,7 +63,8 @@ $(document).ready(function(){
 		});
 	
 		// Hide overlay and menu when the overlay is clicked
-		$('.bars_overlay').click(function () {
+		$('.bars_overlay').click(function () { 
+			$('.hide_menu').slideToggle(500);
 			$('.bars_menu, .bars_overlay').removeClass('open');
 			$('.bars_icon i').removeClass('fa-times').addClass('fa-bars');
 			$('body').removeClass('no-scroll'); // Enable scrolling

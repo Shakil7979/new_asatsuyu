@@ -244,18 +244,19 @@ h2 {
 }
 
 .banner h2 {
-	font-size: 22px;
+	font-size: 24px;
 	font-weight: 600;
 	text-transform: capitalize;
 	color: #fff;
-	line-height: 36px;
+	line-height: 34px;
 	font-family: "Playfair Display", serif;
 	font-style: italic;
+	letter-spacing: 4px;
 }
 
 .banner {
 	width: 100%;
-	max-width: 400px;
+	max-width: 498px;
 	margin: 0 0 0 auto;
 }
 
@@ -266,7 +267,7 @@ h2 {
 .banner_text {
 	position: absolute;
 	width: 100%;
-	bottom: 200px;
+	bottom: 120px;
 	z-index: 99;
 	left: 0;
 }
