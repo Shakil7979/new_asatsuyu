@@ -8,19 +8,8 @@ $(document).ready(function () {
         loop: true,              // Enable infinite looping
         autoplay: true,          // Enable autoplay
         nav: false,              // Disable navigation arrows
-        dots: true,              // Show navigation dots
-        autoplayTimeout: 6000,   // 6 seconds per slide
-        smartSpeed: 1000,        // Smooth transition speed
-        onTranslated: function () {
-            // Remove animation from all content
-            $(".image_content").removeClass("animate-content");
-            // Add animation to the active content
-            $(".owl-item.active .image_content").addClass("animate-content");
-        },
-        onInitialized: function () {
-            // Add animation to the first visible content
-            $(".owl-item.active .image_content").addClass("animate-content");
-        }
+        dots: false,              // Show navigation dots 
+        smartSpeed: 1000,        // Smooth transition speed 
     });
 });
 
