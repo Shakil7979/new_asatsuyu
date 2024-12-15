@@ -651,21 +651,17 @@ h4{
 	position: relative;
 	width: 100%;
 	height: 100vh;
-	background-color: #030303; /* Fallback color */
-	overflow: hidden;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+	background: url(../images/about/new/banner.jpeg) no-repeat scroll center center / cover;
+
   }
   
-  .background_video {
-	/* position: absolute; */
+  /* .background_video { 
 	top: 0;
 	left: 0;
 	width: 100%;
 	height: 100vh;
 	object-fit: cover;
-}
+} */
 
   .mobile_icon{
 	display: none;
@@ -679,24 +675,28 @@ h4{
 	height: 100%;
 	background-color: rgba(3, 3, 3, 0.605); /* Semi-transparent black overlay */
 	z-index: 2;
-  }
-  /* .container {
-	position: relative;
-	width: 100%;
-	height: 100%;
-  } */
+  } 
+
   .about_banner_text {
 	right: 0;
 	position: absolute;
 	z-index: 3;
 	bottom: 221px;
   }
-  .about_banner_text h1 {
+
+  .ab_banner{
+	display: flex;
+	justify-content: center;
+	height: 100vh;
+	text-align: center;
+	align-items: center;
+  }
+
+  .ab_banner h1 {
 	color: #ffffff;
-	font-size: 18px;
+	font-size: 22px;
 	font-weight: 300;
-	font-style: italic;
-	text-align: right;
+	font-style: italic; 
   }
   /* =======  Founder area start here  ======= */
   .about_founder {
@@ -894,38 +894,42 @@ h4{
 }
 
 .about_text h4 {
-	font-size: 40px;
-	color: #69ad09;
+	font-size: 40px; 
 }
 
 .about_text p {
-	margin-top: 28px;
+	margin-top: 28px; 
+	font-family: "Noto Sans", sans-serif;
+	font-weight: 100;
+	line-height: 35px;
+	font-size: 18px;
 }
 
 .sk_about_img {
-	background: #0000;
-	width: 100%;
-	max-width: 344px;
-	text-align: center;
-	height: 400px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	border-radius: 10px;
-	margin: 0 0 0 auto;
-	/* transform: translateY(-200px); */
+	background: #0000; 
 	position: relative;
 	z-index: 999999;
 }
 
 .s_about_right{
-	text-align: right;
+	transform: translateY(-300px);
+
 }
 
+.sk_about_img img{
+	width: 100%; 
+	max-width: 456px;
+	height: 587px;
+}
+
+.s_about_right{
+	text-align: right;
+}
+/* 
 .sk_about_banner {
 	width: 75%;
 	margin: 0 auto;
-}
+} */
 
 .contact_box {
 	padding-top: 160px;
@@ -1139,7 +1143,7 @@ h4{
 
 .services_area {
 	background: url(../images/services/banner.webp) no-repeat scroll center center / cover;
-	height: 600px;
+	height: 100vh;
 	width: 100%; 
 	position: relative;
 }
@@ -1404,7 +1408,7 @@ h4{
 /* test  */
 
 .contact_area {
-	background: #121212;
+	background: #030303;
 } 
  
 .header_area{
