@@ -11,6 +11,9 @@ $(document).ready(function () {
         dots: false,              // Show navigation dots 
         smartSpeed: 1000,        // Smooth transition speed 
     });
+
+	
+	$.Scrollax();
 });
 
 
