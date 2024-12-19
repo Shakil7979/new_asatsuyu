@@ -41,7 +41,7 @@ $(document).ready(function(){
 		$('.bars_icon').click(function (e) {
 			e.preventDefault();
 
-			$('.hide_menu').slideToggle(500);
+			// $('.hide_menu').slideToggle(500);
 			$('.bars_menu, .bars_overlay').toggleClass('open');     // Show or hide menu and overlay
 	
 			const icon = $(this).find('i');

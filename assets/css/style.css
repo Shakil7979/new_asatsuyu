@@ -47,7 +47,7 @@ h2 {
 }
 
 .logo a img {
-	width: 190px;
+	width: 160px;
 }
 
 .header_area {
@@ -64,7 +64,7 @@ h2 {
 }
 
 .menu ul li a {
-	font-size: 18px;
+	font-size: 16px;
 	font-weight: 400;
 	color: #e7e7e7;
 	transition: 0.3s;
@@ -74,13 +74,16 @@ h2 {
 	color: #fff;
 } 
 
+.logo {
+	text-align: center;
+}
+
 .hum_menu__box ul li a {
-	font-size: 28px;
+	font-size: 16px;
 	font-weight: 400;
 	color: #e7e7e7;
-	transition: 0.3s;
-	font-family: "Playfair Display", serif;
-	margin-bottom: 9px;
+	transition: 0.3s; 
+	margin-bottom: 12px;
 	display: inline-block;
 }
 
@@ -130,14 +133,29 @@ h2 {
 .bars_menu {
 	position: fixed;
 	top: 0;
-	right: -100%;
-	background: #030303d6;
+	right: 0;
+	background: url(../images/Home/bars.jpg) no-repeat scroll center center / cover;
 	z-index: 9999;
 	width: 100%;
-	height: 100vh;
-	/* display: none; */
-	max-width: 600px;
+	height: 100vh; 
+	display: none;
+	max-width: 100%;
 	transition: 0.7s;
+}
+
+.bars_menu::after{
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	background: rgba(0, 0, 0, 0.6);
+}
+
+.bars_area_box{
+	position: relative;
+	z-index: 99;
 }
 
 .social_humbarg ul {
@@ -169,7 +187,7 @@ h2 {
 } */
 
 .bars_menu.open {
-    right: 0; /* Visible on-screen */
+    display: block; /* Visible on-screen */
 }
 
 .bars_area_box {
@@ -180,17 +198,48 @@ h2 {
 	flex-direction: column;
 }
 
-.bars_icon:hover { 
+/* .bars_icon:hover { 
 	border: 1px solid #fff; 
 	background: #000;
-}
+} */
 
 .banner_carousel_item_1{
 	background: url(../images/Home/banner/1.jpeg) no-repeat scroll center center / cover; 
 }
 
-.select2-container { 
-	width: 120px !important;
+.footer_logo img {
+	width: 235px;
+}
+
+.ready_img img {
+	width: 100%;
+}
+
+.ready_boxxx {
+	width: 100%;
+	max-width: 914px;
+	margin: 0 auto;
+}
+
+.ready_text .btn_1 {
+	padding: 8px 16px; 
+}
+
+.ready_text {
+	width: 100%;
+	max-width: 341px;
+}
+
+.ready_text h4{
+	margin-bottom: 25px;
+}
+
+.ready_text p {
+	margin-bottom: 25px;
+}
+
+.select2-container {
+	width: 175px !important;
 	margin-top: 8px;
 }
 
@@ -262,21 +311,21 @@ h2 {
 }
 
 .banner h2 {
-	font-size: 18px;
+	font-size: 16px;
 	font-weight: 600;
 	text-transform: capitalize;
 	color: #fff;
-	line-height: 34px;
-	font-family: "Playfair Display", serif;
+	line-height: 34px; 
 	font-style: italic;
 	letter-spacing: 1px;
-	font-family: 'Helvetica';
+	text-align: left;
 }
 
 .banner {
 	width: 100%;
-	max-width: 498px;
+	max-width: 406px;
 	margin: 0 0 0 auto;
+	text-align: left;
 }
 
 .banner_area {
@@ -302,7 +351,7 @@ h2 {
 }
 
 h3{
-	font-size: 28px;
+	font-size: 24px;
 	color: #fff;
 	line-height: 32px;
 	font-weight: 700;
@@ -316,8 +365,8 @@ h3{
 
 p {
 	color: #fff;
-	font-size: 18px;
-	line-height: 28px;
+	font-size: 16px;
+	line-height: 34px;
 }
 
 
@@ -370,7 +419,7 @@ p {
 }
 
 .experi_single_text {
-	padding: 25px 15px;
+	padding: 25px 26px;
 	text-align: center;
 }
 
@@ -379,7 +428,7 @@ p {
 }
 
 .experi_single_text p {  
-	font-size: 16px;
+	font-size: 14px;
 }
 
 .travel_box.helped p {
@@ -387,7 +436,7 @@ p {
 }
 
 h4{
-	font-size: 24px;
+	font-size: 20px;
 	color: #fff;
 	line-height: 28px;
 	font-weight: 700;
@@ -448,13 +497,13 @@ h4{
 
 .footer_logo p {
 	text-transform: uppercase;
-	font-family: 'Helvetica';
+	font-size: 14px;
+	font-weight: 400;
 }
 
 .footer_logo {
 	color: #69AD09;
-	font-weight: 600;
-	margin-top: 15px;
+	font-weight: 600; 
 }
 
 .footer_subs_input {
@@ -476,7 +525,7 @@ h4{
 .footer_subs_input button {
 	background: #69AD09;
 	color: #fff;
-	border: none;
+	border: 1px solid transparent;
 	border-radius: 0;
 }
 
@@ -771,6 +820,11 @@ h4{
   }
   
   /*  ========  Founder area End here  ======== */
+
+  .ready_boxxx_area{
+	background-color: #121212; 
+  }
+
   .about_inquiryArea {
 	background-color: #121212;
 	padding: 130px 0 90px 0;
@@ -1063,7 +1117,7 @@ h4{
 	flex: 1; 
 	min-width: 0;  
 	padding: 8px; 
-	border-bottom: 1px solid #eee;
+	border-bottom: 0.5px solid #eee;
 }
 
 .form_group .select2-container--default .select2-selection--single {
@@ -1478,19 +1532,21 @@ h4{
  
 .header_area{
 	opacity: 1 !important;
-}
+} 
+
 .logo p {
-	font-size: 16px;
+	font-size: 14px;
 	text-align: center;
+	line-height: 15px;
 }
 
 .logo span {
 	display: block;
 	text-align: center;
 	color: #69AD09;
-	font-size: 22px;
+	font-size: 16px;
 	font-weight: 400;
-	line-height: 22px;
+	line-height: 25px;
 }
 
 .service_planning{
@@ -1558,7 +1614,9 @@ h4{
 	margin-bottom: 25px;
 }
 
-
+.home_help .helped p {
+	text-align: center !important;   
+}
 
 
 
@@ -1566,7 +1624,7 @@ h4{
 /* 
 
 font-family: "Noto Sans", sans-serif;
-font-family: "Playfair Display", serif;
+ 
 
 */
 
