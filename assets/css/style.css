@@ -10,7 +10,7 @@ body{
 	background: #030303;
 	position: relative;
 	overflow-x: hidden;
-	font-family: "Sen", sans-serif;
+    font-family: 'Avenir';
 }
 h1,h2,h3,h4,h5,h6,p{
 	margin: 0;
@@ -254,7 +254,7 @@ h2 {
 	left: 0;
 	width: 100%;
 	height:100%;
-	background: rgba(0, 0, 0, 0.15);
+	/* background: rgba(0, 0, 0, 0.15); */
 }
 
 .insta_icon i{
@@ -297,7 +297,7 @@ h2 {
 
 .travel_box {
 	width: 100%;
-	max-width: 600px;
+	max-width: 555px;
 	margin: 0 auto;
 }
 
@@ -324,6 +324,8 @@ p {
 .travel_box p {
 	margin-bottom: 25px;
 	text-align: justify;
+	font-weight: 300;
+	line-height: 35px;
 }
 
 .btn_1 {
@@ -335,11 +337,13 @@ p {
 	transition: 0.3s;
 	font-size: 18px;
 	display: inline-block;
+	border: 1px solid transparent;
 }
 
 .btn_1:hover {
-	background: #66AA08;
-	color: #fff;
+	background: transparent;
+	color: #66AA08;
+	border: 1px solid #66AA08;
 }
 
 .section_title {
