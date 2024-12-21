@@ -410,7 +410,7 @@ p {
 
 .section_title p {
 	width: 100%;
-	max-width: 550px;
+	max-width: 750px;
 	margin: 0 auto;
 }
 
@@ -621,7 +621,7 @@ h4{
 .create_text {
 	text-align: center;
 	width: 100%;
-	max-width: 500px;
+	max-width: 364px;
 	margin: 0 auto;
 }
  
@@ -797,8 +797,8 @@ h4{
   }
   
   .about_whyus_text_box {
-	display: flex;
-	min-width: fit-content; 
+	display: flex; 
+	flex-wrap: wrap;
 	gap: 50px; 
   }
   
@@ -1072,7 +1072,7 @@ h4{
 
 .mail_location p {
 	width: 100%;
-	max-width: 278px;
+	max-width: 217px;
 }
 
 .contact_social ul {
@@ -1338,8 +1338,17 @@ h4{
 }
 
 .trip_number h3 {
-	font-size: 50px;
+	font-size: 30px;
 	font-weight: 700;
+}
+
+.trip_content h4 {
+	font-size: 16px;
+	margin-bottom: 25px;
+}
+
+.trip_content p {
+	line-height: 26px;
 }
 
 .single_trip {
@@ -1355,15 +1364,20 @@ h4{
 	text-align: justify;
 }
 
-.single_package_service { 
-	background: transparent; 
+.single_package_service {
+	background: transparent;
+	height: 100%;
+	border: 1px solid #ddd;
+}
+.about_text {
+	width: 100%;
+	max-width: 497px;
+	margin: 0 0 0 auto;
 }
 
 .single_package_service .experi_single_text {
 	padding: 40px 25px ;
-	text-align: center;
-	border: 1px solid #ddd;
-	border-top: none;
+	text-align: center; 
 }
 
 .single_package_service .experi_single_text ul {
