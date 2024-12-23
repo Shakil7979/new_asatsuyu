@@ -40,28 +40,38 @@ $(document).ready(function(){
 	$(document).ready(function () {
 		$('.bars_icon').click(function (e) {
 			e.preventDefault();
-
-			// $('.hide_menu').slideToggle(500);
-			$('.bars_menu, .bars_overlay').toggleClass('open');     // Show or hide menu and overlay
 	
-			const icon = $(this).find('i');
-			if (icon.hasClass('fa-bars')) {
-				icon.removeClass('fa-bars').addClass('fa-times');
+			// Toggle menu and overlay visibility
+			$('.bars_menu, .bars_overlay').toggleClass('open');
+	
+			const menuIcon = $(this).find('.menu-icon');
+	
+			if (menuIcon.length) {
+				// Remove the image and add the Font Awesome close icon
+				menuIcon.remove(); // Remove the image
+				$(this).append('<i class="fa fa-times close-icon"></i>'); // Add Font Awesome close icon
 				$('body').addClass('no-scroll'); // Disable scrolling
 			} else {
-				icon.removeClass('fa-times').addClass('fa-bars');
+				// Remove the Font Awesome close icon and add the image back
+				$(this).find('.close-icon').remove(); // Remove the close icon
+				$(this).append('<img src="assets/images/main-menu.png" alt="Menu Icon" class="menu-icon">');
 				$('body').removeClass('no-scroll'); // Enable scrolling
 			}
 		});
 	
-		// Hide overlay and menu when the overlay is clicked
-		$('.bars_overlay').click(function () { 
-			$('.hide_menu').slideToggle(500);
+		// Hide menu and reset icon when clicking the overlay
+		$('.bars_overlay').click(function () {
 			$('.bars_menu, .bars_overlay').removeClass('open');
-			$('.bars_icon i').removeClass('fa-times').addClass('fa-bars');
+	
+			const barsIcon = $('.bars_icon');
+			barsIcon.find('.close-icon').remove(); // Remove close icon
+			barsIcon.append('<img src="assets/images/main-menu.png" alt="Menu Icon" class="menu-icon">');
 			$('body').removeClass('no-scroll'); // Enable scrolling
 		});
 	});
+	
+	
+	
 	
 	
 	
