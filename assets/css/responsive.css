@@ -29,7 +29,7 @@
         font-size: 16px; 
     }
     .hum_menu__box ul li a {
-        font-size: 40px; 
+        font-size: 14px; 
     }
 }
 
@@ -70,18 +70,24 @@
         font-size: 30px; 
         line-height: 42px; 
     }
-    .trip_number h3 {
-        font-size: 36px; 
-    }
+    .footer_social ul li a {
+        font-size: 20px; 
+    } 
     .aboutInquiryRightText {
         margin-top: 25px;
-    }
-    .trip_content h4 {
-        font-size: 18px;
-    }
+    } 
     .how_section_title h3 {
-        letter-spacing: 3px;
-        font-size: 25px;
+        letter-spacing: 3px; 
+    }
+    .about_whyus_text_box { 
+        gap: 5px;
+    }
+    .s_about_right {
+        transform: translateY(0);
+    }
+    .sk_about_img img { 
+        max-width: 100%;
+        height: auto;
     }
     .trip_content p {
         text-align: left;
@@ -145,7 +151,7 @@
         margin-top: 25px;
     }
     .hum_menu__box ul li a {
-        font-size: 30px; 
+        font-size: 14px; 
     }
     .hum_mneu_logo a img {
         width: 155px;
@@ -153,6 +159,12 @@
     }
     .travel_box p { 
         text-align: center;
+    }
+    .single_travel_info h3 { 
+        font-size: 16px;
+    }
+    .single_travel_info p { 
+        font-size: 14px;
     }
     .footer_logo img {
         width: 160px;
@@ -170,8 +182,8 @@
         text-align: center;
     }
     h3 {
-        font-size: 24px; 
-        line-height: 27px; 
+        font-size: 18px;
+        line-height: 27px;
     }
     .extra_header {
         background: transparent;
@@ -199,13 +211,9 @@
     .art_travel { 
         right: inherit; 
         left: 31px;
-    }
-    .art_banner_text h3 {
-        font-size: 42px;
-        line-height: 56px;
-    }
-    .art_img_text h3{
-        font-size: 28px;
+    } 
+    .art_img_text h3 {
+        font-size: 12px;
         line-height: 28px;
     }
     .art_img_text { 
@@ -230,7 +238,7 @@
         line-height: 26px;
     }
     .hum_menu__box ul li a {
-        font-size: 20px;
+        font-size: 14px;
     }
     .about_founder_text_box_text p {
         padding-top: 25px;
@@ -246,8 +254,8 @@
         font-size: 16px; 
     }
     .section_title h2 {
-        font-size: 30px; 
-        line-height: 39px; 
+        font-size: 18px;
+        line-height: 39px;
     }
     .footer_social ul { 
         flex-wrap: wrap;

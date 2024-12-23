@@ -1620,8 +1620,8 @@ h4{
 	background: url(../images/travel/1.png) no-repeat fixed center center / 100% 100%;
 }
 
-.art_img_padding{
-	padding: 120px 0 180px 0;
+.art_img_padding {
+	padding: 120px 0 180px 0 !important;
 }
 
 .fixed_content {
