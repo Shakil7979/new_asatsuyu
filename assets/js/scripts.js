@@ -88,15 +88,15 @@ $(document).ready(function(){
 			dots: false,
 			autoplayTimeout: 6000, 
 			smartSpeed: 3000, 
-			animateOut: 'fadeOut',
-			animateIn: 'fadeIn',
-			onTranslated: function(event) {
-				$(".banner_carousel_item").removeClass("active");  
-				$(".owl-item.active .banner_carousel_item").addClass("active");  
-			},
-			onInitialized: function(event) {
-				$(".owl-item.active .banner_carousel_item").addClass("active");  
-			}
+			// animateOut: 'fadeOut',
+			// animateIn: 'fadeIn',
+			// onTranslated: function(event) {
+			// 	$(".banner_carousel_item").removeClass("active");  
+			// 	$(".owl-item.active .banner_carousel_item").addClass("active");  
+			// },
+			// onInitialized: function(event) {
+			// 	$(".owl-item.active .banner_carousel_item").addClass("active");  
+			// }
 		});
 	});
  
