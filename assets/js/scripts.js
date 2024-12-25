@@ -86,10 +86,10 @@ $(document).ready(function(){
 			touchDrag: false,
 			mouseDrag: false, 
 			dots: false,
-			autoplayTimeout: 6000, 
+			autoplayTimeout: 5000, 
 			smartSpeed: 3000, 
-			// animateOut: 'fadeOut',
-			// animateIn: 'fadeIn',
+			animateOut: 'fadeOut',
+			animateIn: 'fadeIn',
 			// onTranslated: function(event) {
 			// 	$(".banner_carousel_item").removeClass("active");  
 			// 	$(".owl-item.active .banner_carousel_item").addClass("active");  
