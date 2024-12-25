@@ -4,12 +4,17 @@ AOS.init();
 
 $(document).ready(function () {
     $(".ex_banner_carousel").owlCarousel({
-        items: 1,                // Show one item at a time
-        loop: true,              // Enable infinite looping
-        autoplay: true,          // Enable autoplay
-        nav: false,              // Disable navigation arrows
-        dots: false,              // Show navigation dots 
-        smartSpeed: 1000,        // Smooth transition speed 
+		items: 1,
+		loop: true,
+		autoplay: true,
+		nav: false,
+		touchDrag: false,
+		mouseDrag: false, 
+		dots: true,
+		autoplayTimeout: 5000, 
+		smartSpeed: 3000, 
+		animateOut: 'fadeOut',
+		animateIn: 'fadeIn',
     });
 
 	
@@ -20,22 +25,7 @@ $(document).ready(function () {
 
 
 
-$(document).ready(function(){
-	// Mobile Menu
-	// $(document).ready(function () {
-	// 	$('.bars_icon').click(function (e) {
-	// 		e.preventDefault();  
-	 
-	// 		$('.bars_menu').slideToggle(1000);  
-	 
-	// 		const icon = $(this).find('i');
-	// 		if (icon.hasClass('fa-bars')) {
-	// 			icon.removeClass('fa-bars').addClass('fa-times');  
-	// 		} else {
-	// 			icon.removeClass('fa-times').addClass('fa-bars');
-	// 		}
-	// 	});
-	// });
+$(document).ready(function(){ 
 
 	$(document).ready(function () {
 		$('.bars_icon').click(function (e) {
