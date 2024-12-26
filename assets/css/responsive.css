@@ -40,9 +40,10 @@
     .logo a img {
         width: 130px;
     }
-    .accom_text p { 
+    .accom_text p {
         font-size: 16px;
-        line-height: 21px; 
+        line-height: 21px;
+        text-align: left;
     }
     .about_founder_text_box { 
         flex-direction: column;
@@ -69,6 +70,18 @@
 	.banner h2 {
         font-size: 30px; 
         line-height: 42px; 
+    }
+    .ready_services_boxx .ready_text { 
+        margin-left: 0;
+    }
+    .about_whyus_text_box_wrapper {
+        margin-left: 36px;
+    }
+    .why_area_boxxx {
+        margin-left: 35px;
+    }
+    .ex_banner_item { 
+        height: 372px; 
     }
     .footer_social ul li a {
         font-size: 20px; 
@@ -236,6 +249,12 @@
 	p { 
         font-size: 15px;
         line-height: 26px;
+    }
+    .aboutInquiryRightText { 
+        max-width: 100%;
+    }
+    .ready_text { 
+        max-width: 100%;
     }
     .hum_menu__box ul li a {
         font-size: 14px;
