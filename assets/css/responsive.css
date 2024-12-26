@@ -16,7 +16,7 @@
         font-size: 16px;
     }
 } 
-
+ 
 @media all and (max-width: 1199px){
     .art_loop_img img {
         width: 100%;
