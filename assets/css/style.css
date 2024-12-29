@@ -255,15 +255,7 @@ h2 {
 	font-size: 14px;
 	display: flex;
 	justify-content: center;
-	align-items: center;
-	background: #fff;
-	color: #000;
-}
-
-.ready_text .btn_1:hover {
-	
-	background: #000;
-	color: #fff;
+	align-items: center; 
 }
 
 .art_img_up {
@@ -439,8 +431,8 @@ p {
 
 .btn_1 {
 	padding: 16px 50px;
-	background:   transparent;
-	color: #fff;
+	background:  #fff;
+	color: #000;
 	font-weight: 500;
 	border-radius: 0;
 	transition: 0.3s;
@@ -449,16 +441,16 @@ p {
 	display: inline-block; 
 }
 
+.btn_1:hover {
+	background: transparent;
+	color: #fff;
+	border: 1px solid #fff;
+}
+
 .start_service_btn a {
 	max-width: 130px;
 	margin: 0 auto;
-}
-
-.btn_1:hover {
-	background: #ffff;
-	color: #000;
-	border: 1px solid #fff;
-}
+} 
 
 .section_title {
 	text-align: center; 
@@ -519,6 +511,42 @@ h4{
 	overflow: hidden;
 	height: 100%;
 }
+
+.package_area .owl-nav {
+	position: absolute;
+	top: -65px;
+	right: 0;
+	display: flex;
+	gap: 30px;
+}
+
+.package_area .owl-nav:after{
+	content: '';
+	position: absolute;
+	right: 50px;
+	top: 6px;
+	width: 2px;
+	height: 30px;
+	background-color: #fff;
+}	
+
+
+
+.owl-theme .owl-nav [class*="owl-"]:hover {
+	background: transparent; 
+} 
+button:focus {
+	outline: none;
+}
+
+.package_area .owl-nav button i {
+	color: #fff;
+	font-size: 30px;
+}
+
+.package_area {
+	position: relative;
+} 
 
 .travel_box.helped {
 	max-width: 739px;
@@ -1887,7 +1915,7 @@ h4{
 }
 
 .single_card_art:hover .art_card_img{ 
-	background: #8C8A8B;
+	background: #fff;
 }
 
 .art_card_img img { 
@@ -1911,7 +1939,7 @@ h4{
 }
 
 .single_card_art:hover {
-	border: 1px solid #fff;
+	/* border: 1px solid #fff; */
 
 }
 

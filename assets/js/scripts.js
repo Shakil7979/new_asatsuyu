@@ -17,6 +17,31 @@ $(document).ready(function () {
 		animateIn: 'fadeIn',
     });
 
+	$(".service_product_carousel").owlCarousel({
+		items: 3,
+		loop: true,
+		autoplay: true,
+		nav: true,
+		dots: false,
+		margin: 30,
+		navText: [
+			'<i class="fa-solid fa-arrow-left"></i>',  
+			'<i class="fa-solid fa-arrow-right"></i>'  
+		],
+		responsive: {
+			0: {
+				items: 1 
+			},
+			768: {
+				items: 2  
+			},
+			1024: {
+				items: 3  
+			}
+		}
+	});
+	
+
 	
 	$.Scrollax();
 });
