@@ -283,6 +283,9 @@
         padding-top: 25px;
         text-align: left;
     }
+    .banner_text {
+        bottom: 36px;
+    }
     .about_founder_text_box { 
         gap: 22px; 
     }
@@ -291,6 +294,9 @@
     }
     .about_founder_text_box_text h3 { 
         padding-bottom: 9px;
+    }
+    .banner_carousel_item {
+        height: 405px; 
     }
     .about_founder { 
         padding: 8px 0;
