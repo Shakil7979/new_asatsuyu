@@ -520,15 +520,15 @@ h4{
 	gap: 30px;
 }
 
-.package_area .owl-nav:after{
+.package_area .owl-nav::after {
 	content: '';
 	position: absolute;
-	right: 50px;
+	right: 63px;
 	top: 6px;
-	width: 2px;
+	width: 1px;
 	height: 30px;
 	background-color: #fff;
-}	
+}
 
 
 

@@ -25,8 +25,8 @@ $(document).ready(function () {
 		dots: false,
 		margin: 30,
 		navText: [
-			'<svg aria-hidden="true" focusable="false" role="presentation" viewBox="0 0 40 29.3" xmlns="http://www.w3.org/2000/svg"><path d="M25.6,29.25s1.59-14.6,14.4-14.6" style="fill: none; stroke: #000;"></path><path d="M25.6,.05s1.59,14.6,14.4,14.6" style="fill: none; stroke: #000;"></path><path d="M0,14.65H40" style="fill: none; stroke: #000;"></path></svg>',
-			'<svg aria-hidden="true" focusable="false" role="presentation" viewBox="0 0 40 29.3" xmlns="http://www.w3.org/2000/svg"><path d="M14.4,29.25s-1.59-14.6-14.4-14.6" style="fill: none; stroke: #000;"></path><path d="M14.4,.05s-1.59,14.6-14.4,14.6" style="fill: none; stroke: #000;"></path><path d="M40,14.65H0" style="fill: none; stroke: #000;"></path></svg>'
+			' <img src="assets/images/services/left.png" alt="">',
+			'<img src="assets/images/services/right.png" alt="">'
 		],
 		responsive: {
 			0: {
