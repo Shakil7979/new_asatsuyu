@@ -25,21 +25,22 @@ $(document).ready(function () {
 		dots: false,
 		margin: 30,
 		navText: [
-			'<i class="fa-solid fa-arrow-left"></i>',  
-			'<i class="fa-solid fa-arrow-right"></i>'  
+			'<svg aria-hidden="true" focusable="false" role="presentation" viewBox="0 0 40 29.3" xmlns="http://www.w3.org/2000/svg"><path d="M25.6,29.25s1.59-14.6,14.4-14.6" style="fill: none; stroke: #000;"></path><path d="M25.6,.05s1.59,14.6,14.4,14.6" style="fill: none; stroke: #000;"></path><path d="M0,14.65H40" style="fill: none; stroke: #000;"></path></svg>',
+			'<svg aria-hidden="true" focusable="false" role="presentation" viewBox="0 0 40 29.3" xmlns="http://www.w3.org/2000/svg"><path d="M14.4,29.25s-1.59-14.6-14.4-14.6" style="fill: none; stroke: #000;"></path><path d="M14.4,.05s-1.59,14.6-14.4,14.6" style="fill: none; stroke: #000;"></path><path d="M40,14.65H0" style="fill: none; stroke: #000;"></path></svg>'
 		],
 		responsive: {
 			0: {
-				items: 1 
+				items: 1
 			},
 			768: {
-				items: 2  
+				items: 2
 			},
 			1024: {
-				items: 3  
+				items: 3
 			}
 		}
 	});
+	
 	
 
 	
