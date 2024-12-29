@@ -37,6 +37,9 @@
 	.hide_menu {
         display: none;
     }
+    .terms_content { 
+        margin-left: 0;
+    }
     .logo a img {
         width: 130px;
     }
@@ -70,7 +73,7 @@
 	.banner h2 {
         font-size: 30px; 
         line-height: 42px; 
-    }
+    } 
     .ready_services_boxx .ready_text { 
         margin-left: 0;
     }
