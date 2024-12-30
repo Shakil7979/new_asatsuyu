@@ -40,6 +40,75 @@ $(document).ready(function () {
 			}
 		}
 	});
+
+	$(".art_imges_carousel").owlCarousel({
+		items: 1,
+		loop: true, 
+		nav: false,
+		dots: true,
+		margin: 20, 
+	});
+
+	$(".travel_slider_owl").owlCarousel({
+		items: 1,
+		loop: true, 
+		nav: true,
+		dots: false,
+		margin: 20, 
+		navText: [
+			'<i class="fa-solid fa-arrow-left"></i>',
+			'<i class="fa-solid fa-arrow-right"></i>'
+		],
+		smartSpeed: 1000, 
+	});
+
+	$(".why_box_carousel").owlCarousel({
+		items: 2.5,
+		loop: true, 
+		nav: true,
+		dots: false,
+		margin: 20, 
+		navText: [
+			'<i class="fa-solid fa-caret-left"></i>',
+			'<i class="fa-solid fa-caret-right"></i>'
+		],
+		smartSpeed: 1000,
+		responsive: {
+			0: {
+				items: 1.2
+			},
+			768: {
+				items: 1.5
+			},
+			1024: {
+				items: 3.5
+			}
+		} 
+	});
+
+	$(".about_whyus_text_box").owlCarousel({
+		items: 3,
+		loop: true, 
+		nav: true,
+		dots: false,
+		margin: 30, 
+		navText: [
+			'<i class="fa-solid fa-arrow-left"></i>',
+			'<i class="fa-solid fa-arrow-right"></i>'
+		],
+		smartSpeed: 1000,
+		responsive: {
+			0: {
+				items: 1
+			},
+			768: {
+				items: 2
+			},
+			1024: {
+				items: 3
+			}
+		} 
+	});
 	
 	
 
@@ -105,14 +174,7 @@ $(document).ready(function(){
 			autoplayTimeout: 5000, 
 			smartSpeed: 3000, 
 			animateOut: 'fadeOut',
-			animateIn: 'fadeIn',
-			// onTranslated: function(event) {
-			// 	$(".banner_carousel_item").removeClass("active");  
-			// 	$(".owl-item.active .banner_carousel_item").addClass("active");  
-			// },
-			// onInitialized: function(event) {
-			// 	$(".owl-item.active .banner_carousel_item").addClass("active");  
-			// }
+			animateIn: 'fadeIn', 
 		});
 	});
  
@@ -150,31 +212,7 @@ $(document).ready(function(){
 });
 
 
-
-// left right 
-
-// $(document).ready(function () {
-//     const container = $(".about_whyus_text_box");
-//     const section = $(".about_whyus");
-
-//     $(window).on("scroll", function () {
-//         const scrollTop = $(window).scrollTop();
-//         const sectionTop = section.offset().top;
-//         const sectionHeight = section.outerHeight();
-//         const windowHeight = $(window).height();
-
-//         // Check if the section is in view
-//         if (scrollTop + windowHeight > sectionTop && scrollTop < sectionTop + sectionHeight) {
-//             // Calculate scroll percentage relative to the section
-//             const scrollPercentage =
-//                 (scrollTop + windowHeight - sectionTop) / (sectionHeight + windowHeight);
-
-//             // Move items horizontally based on scroll
-//             const translateValue = -scrollPercentage * container.width(); // Negative for left movement
-//             container.css("transform", `translateX(${translateValue}px)`);
-//         }
-//     });
-// });
+ 
 
 $(document).ready(function() {
 	$(".js-select2").select2({

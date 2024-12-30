@@ -37,6 +37,18 @@
 	.hide_menu {
         display: none;
     }
+     
+    .service_product_for_desktop{
+        display: none;
+    }
+    
+    .single_package_service .ex_img img { 
+        height: 325px; 
+        object-fit: cover;
+    }
+    .service_product_for_mobile{
+        display: block;
+    }
     .terms_content { 
         margin-left: 0;
     }
@@ -73,7 +85,42 @@
 	.banner h2 {
         font-size: 30px; 
         line-height: 42px; 
+    }
+    .why_area_boxxx {
+        margin-left: 0;
     } 
+    .art_loop_img img { 
+        margin-top: 0;
+    }
+    .why_box_carousel .owl-next ,
+    .why_box_carousel .owl-prev ,
+    .travel_slider_owl .owl-next ,
+    .travel_slider_owl .owl-prev {
+        position: inherit;
+        width: 30px;
+        height: 30px;
+    }
+    .why_box_carousel .owl-nav ,
+    .travel_slider_owl .owl-nav {
+        display: flex;
+        justify-content: center;
+    }
+
+    .why_box_carousel .owl-prev i ,
+    .why_box_carousel .owl-next i ,
+    .travel_slider_owl .owl-prev i ,
+    .travel_slider_owl .owl-next i {
+        font-size: 15px; 
+    }
+
+    .art_img_size_1 ,
+    .art_img_size_2  ,
+    .art_img_size_3 { 
+        height: auto !important;
+    }
+    .ex_art_text p { 
+        margin-top: 30px;
+    }
     .ready_services_boxx .ready_text { 
         margin-left: 0;
     }

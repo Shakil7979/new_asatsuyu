@@ -269,6 +269,22 @@ h2 {
 	max-width: 350px;
 	height: 480px;
 }
+
+.art_img_size_1 {
+	max-width: 935px !important;
+	height: 600px !important;
+}
+
+.art_img_size_2 {
+	max-width: 400px !important;
+	height: 550px !important;
+}
+
+.art_img_size_3 {
+	max-width: 700px !important;
+	height: 580px !important;
+}
+
 .art_first_img img {
 	width: 100%;
 	height: 100%;
@@ -604,7 +620,7 @@ button:focus {
 	text-align: center;
 	line-height: 15px;
 	font-family: 'Glacial Indifference';
-	font-weight: 700;
+	font-weight: 400;
 	letter-spacing: 1.5px;
 }
 
@@ -626,9 +642,9 @@ button:focus {
 	text-align: center;
 	line-height: 15px;
 	font-family: 'Glacial Indifference';
-	font-weight: 700;
+	font-weight: 400;
 	letter-spacing: 1px;
-	margin-top: 10px;
+	margin-top: 4px;
 	text-transform: uppercase;
 }
 
@@ -647,7 +663,7 @@ button:focus {
 .footer_subs_input {
 	display: flex;
 	justify-content: center;
-	gap: 15px;
+	gap: 8px;
 }
 
 .footer_subs_input input {
@@ -1171,7 +1187,7 @@ button:focus {
 }
 
 .accom_text p {
-	text-align: justify;
+	text-align: left;
 }
 
 .about_header {
@@ -1550,6 +1566,7 @@ button:focus {
 .single_travel_info {
 	width: 100%;
 	max-width: 335px;
+	margin: 0 auto;
 }
 
 .single_travel_info h3 {
@@ -1572,12 +1589,23 @@ button:focus {
 .how_section_title h3::after {
 	position: absolute;
 	content: "";
-	width: 100px;
-	height: 2px;
+	width: 280px;
+	height: 1px;
 	background:   #F0F0F0;
 	bottom: -16px;
 	left: 0;
 }
+
+.how_section_title_2 h3::after{
+	height: 0px !important;
+}
+
+
+.how_section_title_2 h3 { 
+	font-size: 15px;
+	letter-spacing: 2px !important;
+}
+
 
 .trip_number h3 {
 	font-size: 24px;
@@ -1747,8 +1775,9 @@ button:focus {
 
 .art_loop_img img {
 	width: 60%;
-	transform: translateY(123px);
+	/* transform: translateY(232px); */
 	height: 281px;
+	margin-top: 245px;
 }
 
 .sk_art_about img {
@@ -1824,14 +1853,7 @@ button:focus {
 .header_area{
 	opacity: 1 !important;
 } 
-
-.logo p {
-	font-size: 10px;
-	text-align: center;
-	line-height: 15px;
-	font-family: 'Glacial Indifference';
-	font-weight: 700;
-}
+ 
 
 .logo span {
 	display: block;
@@ -1889,10 +1911,12 @@ button:focus {
 .accom_img_more {
 	display: flex;
 	flex-wrap: wrap;
+	gap: 15px;
 }
 
 .accom_img_more img {
-	flex: 0 0 50%;
+	flex: 0 0 48%;
+	height: 221px;
 }
 
 .help_area .helped p {
@@ -1909,19 +1933,17 @@ button:focus {
 
 
 .art_card_img {
-	background: #121212;
-	padding: 100px 40px;
+	background: #121212; 
 	margin-bottom: 30px;
+	height: 325px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .single_card_art:hover .art_card_img{ 
 	background: #fff;
-}
-
-.art_card_img img { 
-	object-fit: cover;
-}
-
+} 
 .aboutInquiryRightText p {
 	font-size: 15px;
 	line-height: 1.5;
@@ -1937,14 +1959,10 @@ button:focus {
 	height: 100%;
 	transition: 0.3s;
 }
-
-.single_card_art:hover {
-	/* border: 1px solid #fff; */
-
-}
+ 
 
 .art_card_img img {
-	width: 100%;
+	width: 220px;
 	height: 150px;
 }
 
@@ -2078,6 +2096,108 @@ button:focus {
 	font-size: 15px;
 }
 
+.why_box_carousel .owl-next ,
+.travel_slider_owl .owl-next {
+	position: absolute;
+	top: 48%;
+	right: -68px;
+	width: 50px;
+	height: 50px;
+	border: 1px solid #a8a8a8 !important;
+	border-radius: 100% !important;
+	display: flex !important;
+	justify-content: center;
+	align-items: center;
+}
+
+.why_box_carousel .owl-prev ,
+.travel_slider_owl .owl-prev {
+	position: absolute;
+	top: 48%;
+	left: -68px;
+	width: 50px;
+	height: 50px;
+	border: 1px solid #a8a8a8 !important;
+	border-radius: 100% !important;
+	display: flex !important;
+	justify-content: center;
+	align-items: center;
+}
+
+.why_box_carousel .owl-next ,
+.why_box_carousel .owl-prev {
+	top: 35%;
+}
+
+.why_box_carousel .owl-prev i ,
+.why_box_carousel .owl-next i,
+.travel_slider_owl .owl-prev i ,
+.travel_slider_owl .owl-next i {
+	font-size: 22px;
+	color: #a8a8a8;
+}
+
+.service_product_row{
+	display: flex;
+	gap: 25px;
+	justify-content: space-between;
+}
+
+.single_experinece{
+	height: 100%;
+	flex: 0 0 calc(100% / 3 - 25px);
+}
+
+.single_package_service .ex_img img { 
+	height: 225px; 
+	object-fit: cover;
+}
+  
+.service_product_for_desktop{
+	display: block;
+}
+
+.service_product_for_mobile{
+	display: none;
+}
+
+.why_use_about_text{
+	margin-left: 50px;
+}
+
+ 
+.about_whyus_text_box .owl-next {
+	position: absolute;
+	top: 52%;
+	left: -78px;
+	width: 50px;
+	height: 50px; 
+	border-radius: 100% !important;
+	display: flex !important;
+	justify-content: center;
+	align-items: center;
+	background: #111 !important;
+}
+ 
+.about_whyus_text_box .owl-prev {
+	position: absolute;
+	top: 25%;
+	left: -78px;
+	width: 50px;
+	height: 50px; 
+	border-radius: 100% !important;
+	display: flex !important;
+	justify-content: center;
+	align-items: center;
+	background: #111 !important;
+}
+  
+.about_whyus_text_box .owl-prev i ,
+.about_whyus_text_box .owl-next i {
+	font-size: 18px;
+	color: #444444;
+}
+ 
 
 /*======================  End Page  ======================*/
 /* 
