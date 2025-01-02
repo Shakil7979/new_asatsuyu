@@ -300,6 +300,9 @@
         font-size: 13px;
         line-height: 1.5;
     }
+    .footer_subs_input input { 
+        max-width: 80%; 
+    }
     .container {
         padding: 0 25px;
     }
@@ -581,5 +584,39 @@
 @media all and (max-width: 450px){
     .container {
         padding: 0 20px;
+    }
+    .experience_area .section_title h2 {
+        font-size: 16px; 
+    }
+    .experience_box {
+        padding: 0 15px;
+    }
+    .travel_box h3 { 
+        width: 200px;
+        margin: 0 auto 22px auto;
+    }
+    .home_help .helped p {
+        text-align: justify !important;
+    }
+    .footer_logo p { 
+        margin-top: -1px;
+    }
+    .footer_social {
+        margin-top: 42px;
+    }
+    .footer_social ul li a img {
+        width: 27px;
+    }
+    .footer_subs_input input { 
+        max-width: 80%; 
+    }
+    .footer_subscribe h5 { 
+        margin-bottom: 8px;
+    }
+    .footer_social ul { 
+        margin-bottom: 40px; 
+    }
+    .footer_subscribe { 
+        margin: 40px 0;
     }
 }

@@ -504,6 +504,7 @@ p {
 .experi_single_text h4 {
 	margin-bottom: 12px;
 	font-size: 16px;
+	text-transform: uppercase;
 }
 
 .experi_single_text p {  
