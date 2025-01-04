@@ -587,6 +587,17 @@
     .single_package_service .experi_single_text > p { 
         text-align: justify;
     }
+    .item_of_accomdation { 
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 25px;
+    }
+    .accom_img img {
+        height: auto; 
+    }
+    .accom_img_more { 
+        margin: 0 auto;
+    }
 
 }
 
@@ -601,7 +612,7 @@
         padding: 0 15px;
     }
     .travel_box h3 { 
-        width: 200px;
+        width: 240px;
         margin: 0 auto 22px auto;
     }
     .home_help .helped p {
