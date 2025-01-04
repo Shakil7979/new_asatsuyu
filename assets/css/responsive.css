@@ -395,27 +395,35 @@
         line-height: 1.2;
     }
     .art_card_img { 
-        padding: 44px 40px; 
+        height: 225px; 
     }
     .single_card_art p {
         font-size: 13px;
         line-height: 1.5; 
     }
+    .aboutInquiryRightText p { 
+        margin-left: 55px;
+    }
     .art_card_img img { 
         height: 135px;
+        width: 209px;
+    }
+    .about_inquiryArea .row {
+        flex-direction: column-reverse;
+        gap: 30px;
     }
     .art_first_img.art_second_img { 
         height: auto;
     }
     .art_img_padding {
-        padding: 120px 0 180px 0 !important;
+        padding: 180px 0 180px 0 !important;
     }
     .fixed_content { 
         height: 415px; 
     }
     .art_img_text {
         position: absolute;
-        top: 0;
+        top: 20px;
         left: 0;
         right: 0;
         text-align: center;
@@ -598,12 +606,37 @@
     .accom_img_more { 
         margin: 0 auto;
     }
+    
+    .mobile_show{
+        display: block;
+    }
+
+    .ready_img h4 {
+        font-size: 13px;
+        line-height: 1.7;
+    }
+
+    .mobile_hide{
+        display: none;
+    }
+    .ready_text .btn_1 {
+        padding: 0;
+        width: 235px;
+        height: 40px; 
+    }
+    .art_imgae_area .row {
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
 
 }
 
 @media all and (max-width: 450px){
     .container {
         padding: 0 20px;
+    }
+    .travel_slider_owl  .owl-theme .owl-nav {
+        margin-top: -65px !important;
     }
     .experience_area .section_title h2 {
         font-size: 16px; 

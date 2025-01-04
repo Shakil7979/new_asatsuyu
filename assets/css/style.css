@@ -2232,6 +2232,14 @@ button:focus {
 	font-size: 18px;
 	color: #444444;
 }
+
+.mobile_show{
+	display: none;
+}
+
+.mobile_hide{
+	display: block;
+}
  
 
 /*======================  End Page  ======================*/
