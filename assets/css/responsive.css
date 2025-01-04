@@ -37,6 +37,12 @@
 	.hide_menu {
         display: none;
     }
+    .travel_slider_owl .owl-prev { 
+        left: 70px; 
+    }
+    .travel_slider_owl .owl-next { 
+        left: 140px; 
+    }
      
     .service_product_for_desktop{
         display: none;
@@ -299,6 +305,9 @@
     p {
         font-size: 13px;
         line-height: 1.5;
+    }
+    .terms_condition_area {
+        padding-top: 195px !important;
     }
     .footer_subs_input input { 
         max-width: 80%; 

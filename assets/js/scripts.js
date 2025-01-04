@@ -20,7 +20,6 @@ $(document).ready(function () {
 	$(".service_product_carousel").owlCarousel({
 		items: 3,
 		loop: true,
-		autoplay: true,
 		nav: true,
 		dots: false,
 		margin: 30,
@@ -45,8 +44,9 @@ $(document).ready(function () {
 		items: 1,
 		loop: true, 
 		nav: false,
-		dots: true,
+		dots: false,
 		margin: 20, 
+		autoplay: true,
 	});
 
 	$(".travel_slider_owl").owlCarousel({
@@ -56,15 +56,14 @@ $(document).ready(function () {
 		dots: false,
 		margin: 20, 
 		navText: [
-			'<i class="fa-solid fa-arrow-left"></i>',
-			'<i class="fa-solid fa-arrow-right"></i>'
+			'<i class="fa-solid fa-caret-left"></i>',
+			'<i class="fa-solid fa-caret-right"></i>'
 		],
 		smartSpeed: 1000, 
 	});
 
 	$(".why_box_carousel").owlCarousel({
-		items: 2.5,
-		loop: true, 
+		items: 2.5, 
 		nav: true,
 		dots: false,
 		margin: 20, 
@@ -81,7 +80,7 @@ $(document).ready(function () {
 				items: 1.5
 			},
 			1024: {
-				items: 3.5
+				items: 2.5, 
 			}
 		} 
 	});

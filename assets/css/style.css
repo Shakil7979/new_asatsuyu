@@ -84,9 +84,14 @@ h2 {
 	font-size: 18px;
 	font-weight: 400;
 	color: #e7e7e7;
-	transition: 0.3s; 
+	transition: 0.3s;
 	margin-bottom: 15px;
-	display: inline-block;
+	display: inline-block; 
+}
+
+.hum_menu__box ul li a:hover { 
+	text-decoration: underline;
+	text-underline-offset: 8px;
 }
 
 .hum_mneu_logo img {
@@ -94,9 +99,9 @@ h2 {
 	margin-top: 45px;
 }
 
-.hum_menu__box ul li a:hover {
+/* .hum_menu__box ul li a:hover {
 	color: #8AB92C;
-}
+} */
 
 .bars_icon {
 	width: 50px;
@@ -384,14 +389,14 @@ h2 {
 	font-weight: 700;
 	text-transform: capitalize;
 	color: #F0F0F0;
-	line-height: 34px;
+	line-height: 28px;
 	letter-spacing: 1px;
 	text-align: left;
 }
 
 .banner {
 	width: 100%;
-	max-width: 442px;
+	max-width: 526px;
 	margin: 0 0 0 auto;
 	text-align: left;
 }
@@ -427,7 +432,7 @@ h3{
 }
 
 .travel_box h3 {
-	margin-bottom: 22px;
+	margin-bottom: 45px;
 	text-align: center;
 }
 
@@ -566,7 +571,7 @@ button:focus {
 } 
 
 .travel_box.helped {
-	max-width: 739px;
+	max-width: 684px;
 }
 
 .footer_logo {
@@ -902,8 +907,10 @@ button:focus {
 }
 
 .accom_text span {
-	color: #c1c1c1;
+	color: #c1c1c1d6;
 	font-size: 14px;
+	margin-bottom: 22px;
+	display: inline-block;
 }
 
 
@@ -1046,9 +1053,9 @@ button:focus {
 
 .contact_left_content {
 	width: 100%;
-	max-width: 490px;
+	max-width: 440px;
 	margin: 0 0 0 auto;
-	padding-right: 50px;
+	padding-right: 80px;
 }
 
 .aboutWhyUsSingle p { 
@@ -1320,10 +1327,7 @@ button:focus {
 	transition: 0.3s;
 }
 
-.mail_location ul li a:hover {
-	color: #69ad09; 
-}
-
+ 
 .mail_location p {
 	width: 100%;
 	max-width: 217px;
@@ -1632,7 +1636,14 @@ button:focus {
 
 .how_section_title h3 {
 	letter-spacing: 5px;
-	font-size: 20px;
+	font-size: 15px;
+	text-transform: uppercase;
+}
+
+.text-center.start_service_btn a {
+	background: transparent;
+	color: #fff;
+	padding: 0;
 }
 
 .trip_content p {
@@ -1826,15 +1837,14 @@ button:focus {
 .fixed_content p {
 	width: 100%;
 	max-width: 283px;
-	padding-bottom: 50px;
-	font-style: italic;
+	padding-bottom: 50px; 
 	font-size: 18px;
 }
 
 .ex_art_text p {
 	width: 100%;
-	max-width: 150px;
-	text-align: center;
+	max-width: 195px;
+	text-align: left;
 	margin: 0 auto;
 	font-size: 15px;
 }
@@ -1844,6 +1854,9 @@ button:focus {
 	max-width: 100%;
 }
 
+.bg_color{ 
+	background: #030303 !important;
+}
 
 /* test  */
 
@@ -1917,7 +1930,7 @@ button:focus {
 
 .accom_img_more img {
 	flex: 0 0 48%;
-	height: 221px;
+	height: 166px;
 }
 
 .help_area .helped p {
@@ -2080,6 +2093,7 @@ button:focus {
 
 .why_area_boxxx {
 	margin-left: 86px;
+	margin-top: 155px;
 }
 
 .trip_btn a {
@@ -2097,11 +2111,36 @@ button:focus {
 	font-size: 15px;
 }
 
-.why_box_carousel .owl-next ,
+.why_box_carousel .owl-next  {
+	position: absolute;
+	top: -36%;
+	right:0;
+	width: 50px;
+	height: 50px;
+	border: 1px solid #a8a8a8 !important;
+	border-radius: 100% !important;
+	display: flex !important;
+	justify-content: center;
+	align-items: center;
+}
+
+.why_box_carousel .owl-prev {
+	position: absolute;
+	top: -36%;
+	right: 70px;
+	width: 50px;
+	height: 50px;
+	border: 1px solid #a8a8a8 !important;
+	border-radius: 100% !important;
+	display: flex !important;
+	justify-content: center;
+	align-items: center;
+}
+
 .travel_slider_owl .owl-next {
 	position: absolute;
-	top: 48%;
-	right: -68px;
+	top: 90%;
+	left: 365px;
 	width: 50px;
 	height: 50px;
 	border: 1px solid #a8a8a8 !important;
@@ -2110,12 +2149,11 @@ button:focus {
 	justify-content: center;
 	align-items: center;
 }
-
-.why_box_carousel .owl-prev ,
+ 
 .travel_slider_owl .owl-prev {
 	position: absolute;
-	top: 48%;
-	left: -68px;
+	top: 90%;
+	left: 265px;
 	width: 50px;
 	height: 50px;
 	border: 1px solid #a8a8a8 !important;
@@ -2124,11 +2162,7 @@ button:focus {
 	justify-content: center;
 	align-items: center;
 }
-
-.why_box_carousel .owl-next ,
-.why_box_carousel .owl-prev {
-	top: 35%;
-}
+ 
 
 .why_box_carousel .owl-prev i ,
 .why_box_carousel .owl-next i,
