@@ -74,7 +74,7 @@ $(document).ready(function () {
 		smartSpeed: 1000,
 		responsive: {
 			0: {
-				items: 1.2
+				items: 1
 			},
 			768: {
 				items: 1.5

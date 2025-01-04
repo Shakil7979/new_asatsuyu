@@ -273,10 +273,14 @@
     }
     .banner_text { 
         bottom: 90px; 
-    }    
-    .contact_box > .row {
-        flex-direction: column-reverse;
-    } 
+    }   
+    .mail_location ul li a { 
+        font-size: 14px; 
+    }
+    .contact_left_content { 
+        padding-right: 0; 
+        margin-top: 0;
+    }
     .art_travel { 
         right: inherit; 
         left: 31px;
@@ -305,6 +309,17 @@
     p {
         font-size: 13px;
         line-height: 1.5;
+    }
+    .about_founder_text_box_img img {
+        width: 100%;
+    }
+    .why_use_about_text {
+        margin-left: 0;
+    }
+    .sk_about_img { 
+        position: absolute;
+        top: -539px !important;
+        right: 0;
     }
     .terms_condition_area {
         padding-top: 195px !important;
@@ -628,12 +643,23 @@
         flex-direction: column-reverse;
         gap: 20px;
     }
-
+    .single_package_service .ex_img img {
+        height: 182px; 
+    }
+    .single_package_service .experi_single_text {
+        padding: 20px 25px; 
+    }
+    .sk_about_banner { 
+        margin-top: 106px;
+    }
 }
 
 @media all and (max-width: 450px){
     .container {
         padding: 0 20px;
+    }
+    .sk_about_img {  
+        top: -588px !important; 
     }
     .travel_slider_owl  .owl-theme .owl-nav {
         margin-top: -65px !important;
