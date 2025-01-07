@@ -902,8 +902,10 @@ button:focus {
 	font-size: 22px;
 }
 
-.ready_img img{
+.ready_img img {
 	width: 100%;
+	max-width: 385px; 
+	margin: 0 auto;
 }
 
 .accom_text span {
@@ -1086,9 +1088,15 @@ button:focus {
   
   /*  ========  Founder area End here  ======== */
 
+
   .ready_boxxx_area{
-	background-color: #030303 ; 
+	background-color: #121212; 
   }
+
+  .planing_areaa{
+	background-color: #030303 !important; 
+  }
+
 
   .about_inquiryArea {
 	background-color: #121212;
@@ -1929,7 +1937,7 @@ button:focus {
 }
 
 .accom_img_more img {
-	flex: 0 0 48%;
+	flex: 0 0 47%;
 	height: 166px;
 }
 
