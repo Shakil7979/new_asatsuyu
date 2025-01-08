@@ -42,7 +42,7 @@ $(document).ready(function () {
 
 	$(".art_imges_carousel").owlCarousel({
 		items: 1,
-		loop: true, 
+		loop: false, 
 		nav: false,
 		dots: false,
 		margin: 20, 
@@ -51,7 +51,7 @@ $(document).ready(function () {
 
 	$(".travel_slider_owl").owlCarousel({
 		items: 1,
-		loop: true, 
+		loop: false, 
 		nav: true,
 		dots: false,
 		margin: 20, 
@@ -63,7 +63,7 @@ $(document).ready(function () {
 	});
 
 	$(".why_box_carousel").owlCarousel({
-		items: 2.5, 
+		items: 3, 
 		nav: true,
 		dots: false,
 		margin: 20, 
@@ -77,17 +77,17 @@ $(document).ready(function () {
 				items: 1
 			},
 			768: {
-				items: 1.5
+				items: 2
 			},
 			1024: {
-				items: 2.5, 
+				items: 3, 
 			}
 		} 
 	});
 
 	$(".about_whyus_text_box").owlCarousel({
 		items: 3,
-		loop: true, 
+		loop: false, 
 		nav: true,
 		dots: false,
 		margin: 30, 

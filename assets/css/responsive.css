@@ -95,6 +95,9 @@
         font-size: 30px; 
         line-height: 42px; 
     }
+    .form_area { 
+        margin-top: 46px;
+    }
     .why_area_boxxx {
         margin-left: 0;
     } 
@@ -134,7 +137,13 @@
         margin-left: 0;
     }
     .about_whyus_text_box_wrapper {
-        margin-left: 36px;
+        margin-left: 0;
+    }
+    .aboutWhyUsSingle { 
+        margin-bottom: 20px;
+    }
+    .about_whyus_text_boxs { 
+        gap: 10px;
     }
     .why_area_boxxx {
         margin-left: 35px;

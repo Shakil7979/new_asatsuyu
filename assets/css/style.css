@@ -573,9 +573,14 @@ button:focus {
 } 
 
 .travel_box.helped {
-	max-width: 684px;
+	max-width: 625px;
 }
 
+.text_left p {
+	text-align: left !important;
+	margin: auto !important;
+	max-width: 100% !important;
+}
 .footer_logo {
 	text-align: center;
 }
@@ -917,6 +922,10 @@ button:focus {
 	display: inline-block;
 }
 
+.about_founder_text_box_img img {
+	width: 100%;
+}
+
 
 .about_banner {
 	position: relative;
@@ -1023,15 +1032,21 @@ button:focus {
 	flex-wrap: wrap;
 	gap: 50px; 
 }
+
+.about_whyus_text_boxs {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 50px; 
+}
   
   .aboutWhyUsSingle {
-	flex: 0 0 calc(100% / 3 - 50px);
+	flex: 0 0 calc(100% / 2 - 50px);
 	box-sizing: border-box;
 	margin-bottom: 35px;
 }
 
-.about_whyus_text_box_wrapper{
-	margin-left: 55px;
+.about_whyus_text_box_wrapper {
+	margin-left: 280px;
 }
 
 .form_btn {
@@ -1057,9 +1072,9 @@ button:focus {
 
 .contact_left_content {
 	width: 100%;
-	max-width: 440px;
+	max-width: 499px;
 	margin: 0 0 0 auto;
-	padding-right: 80px;
+	padding-right: 150px;
 }
 
 .aboutWhyUsSingle p { 
@@ -1086,6 +1101,33 @@ button:focus {
 	width: 100%;
 	max-width: 409px;
 	margin-left: 25px;
+}
+
+.terms_condition_area  .section_title h2 {
+	font-size: 22px; 
+}
+
+.privecy_content > h4 { 
+	font-size: 15px;
+}
+
+.terms_content h4 {
+	font-size: 15px;
+	margin-bottom: 25px;
+}
+
+.terms_number_ul p {
+	font-size: 15px;
+}
+
+.form_group{
+	position: relative;
+}
+
+.error-message {
+	position: absolute;
+	bottom: -25px;
+	font-size: 12px;
 }
   
   /*  ========  Founder area End here  ======== */
@@ -2134,6 +2176,10 @@ button:focus {
 	align-items: center;
 }
 
+.experience_text .experi_single_text > p {
+	text-align: center !important; 
+}
+
 .why_box_carousel .owl-prev {
 	position: absolute;
 	top: -36%;
@@ -2145,6 +2191,7 @@ button:focus {
 	display: flex !important;
 	justify-content: center;
 	align-items: center;
+	display: none !important;
 }
 
 .travel_slider_owl .owl-next {
@@ -2184,13 +2231,13 @@ button:focus {
 
 .service_product_row{
 	display: flex;
-	gap: 25px;
+	gap: 60px;
 	justify-content: space-between;
 }
 
 .single_experinece{
 	height: 100%;
-	flex: 0 0 calc(100% / 3 - 25px);
+	flex: 0 0 calc(100% / 3 - 60px);
 }
 
 .single_package_service .ex_img img { 
