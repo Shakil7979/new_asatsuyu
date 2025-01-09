@@ -24,12 +24,12 @@ $(document).ready(function () {
 		dots: false,
 		margin: 30,
 		navText: [
-			' <img src="assets/images/services/left.png" alt="">',
-			'<img src="assets/images/services/right.png" alt="">'
+			'<i class="fa-solid fa-arrow-left"></i>',
+			'<i class="fa-solid fa-arrow-right"></i>'
 		],
 		responsive: {
 			0: {
-				items: 1
+				items: 1.2
 			},
 			768: {
 				items: 2
@@ -45,8 +45,17 @@ $(document).ready(function () {
 		loop: false, 
 		nav: false,
 		dots: false,
+		autoplayTimeout: 3500,
 		margin: 20, 
 		autoplay: true,
+		responsive: {
+			0: {
+				loop: true,
+			},
+			576: {
+				loop: false,
+			}
+		}
 	});
 
 	$(".travel_slider_owl").owlCarousel({
@@ -54,6 +63,7 @@ $(document).ready(function () {
 		loop: false, 
 		nav: true,
 		dots: false,
+		autoplayTimeout: 4000,
 		margin: 20, 
 		navText: [
 			'<i class="fa-solid fa-caret-left"></i>',
@@ -74,7 +84,8 @@ $(document).ready(function () {
 		smartSpeed: 1000,
 		responsive: {
 			0: {
-				items: 1
+				items: 1.2,
+				loop:true
 			},
 			768: {
 				items: 2

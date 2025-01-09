@@ -322,6 +322,31 @@
         font-size: 13px;
         line-height: 1.5;
     }
+    .ready_img h4 { 
+        margin-bottom: 18px;
+    }
+    .ready_boxxx { 
+        max-width: 240px; 
+    }
+    .single_package_service .experi_single_text ul {
+        margin: 8px 0;
+    }
+    .single_planning { 
+        margin-bottom: 32px;
+    }
+    .why_box_carousel .owl-prev { 
+        display: block !important;
+    }
+    .single_package_service .experi_single_text > p {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .art_loop_img img { 
+        height: 150px; 
+    }
+    .art_img_padding .container {
+        padding: 0;
+    }
     .about_founder_text_box_img img {
         width: 100%;
     }
@@ -600,9 +625,13 @@
     .ab_banner { 
         height: 405px; 
     }
-    .sk_about_img img { 
-        height: 226px;
+    .sk_about_img img {
+        height: 249px;
         object-fit: cover;
+        width: 199px;
+    }
+    .check_box_form label { 
+        font-size: 12px; 
     }
     .about_banner { 
         height: 405px; 
